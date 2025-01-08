@@ -92,21 +92,6 @@ The performance tester creates an `output/` folder in the project directory. Ins
 
 ---
 
-## **Error Handling**
-
-The script handles the following common errors gracefully:
-
-1. **Timeout Errors**: 
-- If a page takes too long to load (more than 15 seconds), the script aborts the test and prints an error message.
-
-2. **Invalid URLs**: 
-- If the provided URL is invalid, the script prints an error message and exits.
-
-3. **WebDriver Issues**:
-- If there are issues with ChromeDriver or the browser, an appropriate error message is displayed.
-
----
-
 ## **License**
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
